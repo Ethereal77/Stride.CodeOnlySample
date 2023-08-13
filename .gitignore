@@ -1,4 +1,5 @@
-
+.vscode/
+.vs/
 *.user
 *.lock
 *.lock.json
@@ -12,3 +13,4 @@ _ReSharper*
 [Bb]in/
 obj/
 Cache/
+launchSettings.json

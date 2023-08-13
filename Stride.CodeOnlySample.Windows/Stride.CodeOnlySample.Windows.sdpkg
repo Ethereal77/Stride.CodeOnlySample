@@ -1,7 +1,7 @@
 !Package
 SerializedVersion: {Assets: 3.1.0.0}
 Meta:
-    Name: Xenko.CodeOnlySample.Windows
+    Name: Stride.CodeOnlySample.Windows
     Version: 1.0.0
     Authors: []
     Owners: []

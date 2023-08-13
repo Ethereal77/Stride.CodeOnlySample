@@ -1,10 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net461</TargetFramework>
-    <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ApplicationIcon>Resources\GameIcon.ico</ApplicationIcon>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Xenko.CodeOnlySample.Windows</RootNamespace>
+    <RootNamespace>Stride.CodeOnlySample.Windows</RootNamespace>
 
     <OutputPath>..\Bin\Windows\$(Configuration)\</OutputPath>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
@@ -14,7 +13,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Xenko.CodeOnlySample\Xenko.CodeOnlySample.csproj" />
+    <ProjectReference Include="..\Stride.CodeOnlySample\Stride.CodeOnlySample.csproj" />
   </ItemGroup>
-
 </Project>
